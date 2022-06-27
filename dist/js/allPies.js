@@ -1,5 +1,8 @@
 window.onload = function() {
   loadAllPies();
+  console.log('hi there');
+  console.error('first')
+  console.warn('second')
 }
 
 function loadAllPies() {
